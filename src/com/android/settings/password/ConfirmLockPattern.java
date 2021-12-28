@@ -148,7 +148,6 @@ public class ConfirmLockPattern extends ConfirmDeviceCredentialBaseActivity {
                     mLockPatternUtils.isTactileFeedbackEnabled());
             mLockPatternView.setInStealthMode(!mLockPatternUtils.isVisiblePatternEnabled(
                     mEffectiveUserId));
-            mLockPatternView.setLockPatternSize(mPatternSize);
             mLockPatternView.setOnPatternListener(mConfirmExistingLockPatternListener);
             updateStage(Stage.NeedToUnlock);
 
@@ -428,8 +427,7 @@ public class ConfirmLockPattern extends ConfirmDeviceCredentialBaseActivity {
 
                 final boolean verifyChallenge = getActivity().getIntent().getBooleanExtra(
                         ChooseLockSettingsHelper.EXTRA_KEY_HAS_CHALLENGE, false);
-                final LockscreenCredential credential = LockscreenCredential.createPattern(pattern,
-                        mPatternSize);
+                final LockscreenCredential credential = LockscreenCredential.createPattern(pattern);
                 //TODO: how to sanitize this?
                 Intent intent = new Intent();
                 if (verifyChallenge) {
