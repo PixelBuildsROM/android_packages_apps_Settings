@@ -49,9 +49,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.android.settings.custom.biometrics.FaceUtils;
-import com.android.settings.custom.biometrics.face.FaceSettingsRedoPreferenceController;
-
 /**
  * Settings screen for face authentication.
  */
@@ -73,7 +70,7 @@ public class FaceSettings extends DashboardFragment {
     private FaceSettingsAttentionPreferenceController mAttentionController;
     private FaceSettingsRemoveButtonPreferenceController mRemoveController;
     private FaceSettingsEnrollButtonPreferenceController mEnrollController;
-    private FaceSettingsRedoPreferenceController mRedoController;
+    private FaceSettingsLockscreenBypassPreferenceController mLockscreenController;
     private List<AbstractPreferenceController> mControllers;
 
     private List<Preference> mTogglePreferences;
@@ -84,12 +81,6 @@ public class FaceSettings extends DashboardFragment {
     private boolean mConfirmingPassword;
 
     private final FaceSettingsRemoveButtonPreferenceController.Listener mRemovalListener = () -> {
-        if (FaceUtils.isFaceUnlockSupported()){
-            if (getActivity() != null) {
-                getActivity().finish();
-            }
-            return;
-        }
 
         // Disable the toggles until the user re-enrolls
         for (Preference preference : mTogglePreferences) {
@@ -184,10 +175,6 @@ public class FaceSettings extends DashboardFragment {
             }
         }
         mRemoveController.setUserId(mUserId);
-
-        if (mRedoController != null) {
-            mRedoController.setUserId(mUserId);
-        }
 
         // Don't show keyguard controller for work profile settings.
         if (mUserManager.isManagedProfile(mUserId)) {
@@ -307,9 +294,6 @@ public class FaceSettings extends DashboardFragment {
                 mEnrollController = (FaceSettingsEnrollButtonPreferenceController) controller;
                 mEnrollController.setListener(mEnrollListener);
                 mEnrollController.setActivity((SettingsActivity) getActivity());
-            } else if (controller instanceof FaceSettingsRedoPreferenceController) {
-                mRedoController = (FaceSettingsRedoPreferenceController) controller;
-                mRedoController.setActivity((SettingsActivity) getActivity());
             }
         }
 
@@ -326,7 +310,6 @@ public class FaceSettings extends DashboardFragment {
         controllers.add(new FaceSettingsFooterPreferenceController(context));
         controllers.add(new FaceSettingsConfirmPreferenceController(context));
         controllers.add(new FaceSettingsEnrollButtonPreferenceController(context));
-        controllers.add(new FaceSettingsRedoPreferenceController(context));
         return controllers;
     }
 
