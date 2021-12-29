@@ -29,22 +29,26 @@
     <PreferenceCategory
         android:key="security_settings_face_unlock_category"
         android:title="@string/security_settings_face_settings_use_face_category">
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="security_settings_face_keyguard"
             android:title="@string/security_settings_face_settings_use_face_unlock_phone"
             app:keywords="@string/keywords_face_unlock"
             app:controller="com.android.settings.biometrics.face.FaceSettingsKeyguardPreferenceController"/>
+
         <SwitchPreference
             android:key="security_settings_face_app"
             android:title="@string/security_settings_face_settings_use_face_for_apps"
             app:keywords="@string/keywords_face_unlock"
             app:controller="com.android.settings.biometrics.face.FaceSettingsAppPreferenceController"/>
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="security_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
-            settings:keywords="@string/keywords_lockscreen_bypass"
+            settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
