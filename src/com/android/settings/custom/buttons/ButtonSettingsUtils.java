@@ -20,17 +20,11 @@ import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import com.android.internal.util.custom.NavbarUtils;
 
-import com.android.settings.Utils;
-
 import static com.android.internal.util.custom.hwkeys.DeviceKeysConstants.*;
 
 public class ButtonSettingsUtils {
     public static boolean isAvailable(Context context) {
-        return NavbarUtils.canDisable(context) || hasCameraKey(context) || additionalSettingsAvailable(context);
-    }
-
-    public static boolean additionalSettingsAvailable(Context context) {
-        return Utils.canResolveIntent(context, "org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS");
+        return NavbarUtils.canDisable(context) || hasCameraKey(context);
     }
 
     public static int getDeviceKeys(Context context) {
