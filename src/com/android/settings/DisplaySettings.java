@@ -37,8 +37,6 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
-import lineageos.hardware.LineageHardwareManager;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,7 +45,6 @@ public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
 
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
-    private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity_enable";
 
     @Override
     public int getMetricsCategory() {
