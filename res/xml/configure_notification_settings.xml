@@ -15,7 +15,6 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
                   xmlns:settings="http://schemas.android.com/apk/res-auto"
                   android:title="@string/configure_notification_settings">
 
@@ -134,12 +133,6 @@
             android:key="notification_pulse"
             android:title="@string/notification_pulse_title"
             settings:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>
-
-        <!-- Notification lights -->
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
-            android:key="notification_lights"
-            lineage:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
-            lineage:replacesKey="notification_pulse" />
 
         <!-- Heads up -->
         <lineageos.preference.GlobalSettingSwitchPreference
