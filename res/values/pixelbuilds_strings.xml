@@ -139,6 +139,10 @@
     <string name="charging_control_limit_title">Limit</string>
     <string name="reset">Reset</string>
     
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    
     <!-- Dashboard categories -->
     <string name="top_level_connectivity">Connectivity</string>
     <string name="top_level_personalize">Personalize</string>
