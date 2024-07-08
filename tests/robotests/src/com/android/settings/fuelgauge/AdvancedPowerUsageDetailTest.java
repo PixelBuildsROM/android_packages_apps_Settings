@@ -817,4 +817,14 @@ public class AdvancedPowerUsageDetailTest {
 
         verify(mBackupManager).dataChanged();
     }
+
+    @Test
+    public void shouldSkipForInitialSUW_returnTrue() {
+        assertThat(mFragment.shouldSkipForInitialSUW()).isTrue();
+    }
+
+    @Test
+    public void shouldSkipForInitialSUW_returnTrue() {
+        assertThat(mFragment.shouldSkipForInitialSUW()).isTrue();
+    }
 }
