@@ -175,4 +175,8 @@
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
+    
+    <!-- Long press navbar to search -->
+    <string name="navbar_long_press_gesture_title">Long press to search</string>
+    <string name="navbar_long_press_gesture_summary">Long press the gesture bar to invoke Cirlce to Search</string>
 </resources>
