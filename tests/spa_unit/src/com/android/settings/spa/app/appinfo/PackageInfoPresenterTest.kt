@@ -17,12 +17,15 @@
 package com.android.settings.spa.app.appinfo
 
 import android.app.ActivityManager
+import android.app.KeyguardManager
 import android.app.settings.SettingsEnums
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.android.dx.mockito.inline.extended.ExtendedMockito
+import com.android.settings.Utils
 import com.android.settings.testutils.FakeFeatureFactory
 import com.android.settings.testutils.mockAsUser
 import com.android.settingslib.spaprivileged.framework.common.activityManager
@@ -159,6 +162,48 @@ class PackageInfoPresenterTest {
 
     private fun verifyAction(category: Int) {
         verify(metricsFeatureProvider).action(context, category, PACKAGE_NAME)
+    }
+
+    private fun verifyDisablePackage() {
+        verifyAction(SettingsEnums.ACTION_SETTINGS_DISABLE_APP)
+        verify(mockPackageManager).setApplicationEnabledSetting(
+            PACKAGE_NAME, PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER, 0
+        )
+    }
+
+    private fun verifyUninstallPackage() {
+        verifyAction(SettingsEnums.ACTION_SETTINGS_UNINSTALL_APP)
+
+        val intent = argumentCaptor<Intent> {
+            verify(context).startActivityAsUser(capture(), any())
+        }.firstValue
+        with(intent) {
+            assertThat(action).isEqualTo(Intent.ACTION_UNINSTALL_PACKAGE)
+            assertThat(data?.schemeSpecificPart).isEqualTo(PACKAGE_NAME)
+            assertThat(getBooleanExtra(Intent.EXTRA_UNINSTALL_ALL_USERS, true)).isEqualTo(false)
+        }
+    }
+
+    private fun verifyForceStop() {
+        verifyAction(SettingsEnums.ACTION_APP_FORCE_STOP)
+        verify(mockActivityManager).forceStopPackageAsUser(PACKAGE_NAME, USER_ID)
+    }
+
+    private fun setAuthPassesAutomatically() {
+        whenever(mockKeyguardManager.isKeyguardSecure).thenReturn(mockUserAuthentication())
+    }
+
+    private fun mockUserAuthentication() : Boolean {
+        isUserAuthenticated = true
+        return false
+    }
+
+    private fun mockProtectedPackage() {
+        whenever(Utils.isProtectedPackage(context, PACKAGE_NAME)).thenReturn(true)
+    }
+
+    private fun verifyUserAuthenticated() {
+        assertThat(isUserAuthenticated).isTrue()
     }
 
     private companion object {
