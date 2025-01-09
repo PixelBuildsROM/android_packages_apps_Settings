@@ -18,6 +18,9 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
     
+    <!-- About phone screen, custom fw version intent URI  [CHAR LIMIT=40] -->
+    <string name="custom_easter_uri" translatable="false">https://youtu.be/dQw4w9WgXcQ</string>
+    
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
