@@ -89,10 +89,20 @@ public class PeakRefreshRatePreferenceController extends TogglePreferenceControl
         super.displayPreference(screen);
 
         int defaultPeakRefreshRate = Math.round(mPeakRefreshRate);
-
+        float minRefreshRateValue = Settings.System.getFloat(
+                mContext.getContentResolver(),
+                Settings.System.MIN_REFRESH_RATE, 
+                60.00f
+        );
+        int minRefreshRate = Math.round(minRefreshRateValue > 0 ?
+                minRefreshRateValue : 60.00f);
+        String preferenceSummary = mContext.getString(
+                R.string.peak_refresh_rate_summary,
+                defaultPeakRefreshRate).replace("60",
+                Integer.toString(minRefreshRate));
+            
         mPreference = screen.findPreference(getPreferenceKey());
-        mPreference.setSummary(mContext.getString(
-                R.string.peak_refresh_rate_summary, defaultPeakRefreshRate));
+        mPreference.setSummary(preferenceSummary);
     }
 
     @Override
