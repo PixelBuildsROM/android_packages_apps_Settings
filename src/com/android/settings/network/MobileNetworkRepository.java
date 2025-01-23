@@ -34,7 +34,6 @@ import android.telephony.UiccCardInfo;
 import android.telephony.UiccPortInfo;
 import android.telephony.UiccSlotInfo;
 import android.util.ArrayMap;
-import android.util.IndentingPrintWriter;
 import android.util.Log;
 
 import androidx.annotation.GuardedBy;
@@ -761,18 +760,5 @@ public class MobileNetworkRepository extends SubscriptionManager.OnSubscriptions
 
         default void onCallStateChanged(int state) {
         }
-    }
-
-    public void dump(IndentingPrintWriter printwriter) {
-        printwriter.println(TAG + ": ");
-        printwriter.increaseIndent();
-        printwriter.println(" availableSubInfoEntityList= " + mAvailableSubInfoEntityList);
-        printwriter.println(" activeSubInfoEntityList=" + mActiveSubInfoEntityList);
-        printwriter.println(" mobileNetworkInfoEntityList= " + mMobileNetworkInfoEntityList);
-        printwriter.println(" uiccInfoEntityList= " + mUiccInfoEntityList);
-        printwriter.println(" CacheSubscriptionInfoEntityMap= " + sCacheSubscriptionInfoEntityMap);
-        printwriter.println(" SubscriptionInfoMap= " + mSubscriptionInfoMap);
-        printwriter.flush();
-        printwriter.decreaseIndent();
     }
 }
