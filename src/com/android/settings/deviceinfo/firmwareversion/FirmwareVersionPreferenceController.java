@@ -18,10 +18,13 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.Build;
+import android.os.SystemProperties;
 
+import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
 public class FirmwareVersionPreferenceController extends BasePreferenceController {
+    private static final String VERSION_PROPERTY = "ro.build.version.custom";
 
     public FirmwareVersionPreferenceController(Context context, String key) {
         super(context, key);
@@ -34,6 +37,9 @@ public class FirmwareVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        return Build.VERSION.RELEASE_OR_PREVIEW_DISPLAY;
+        String osVer = Build.VERSION.RELEASE_OR_PREVIEW_DISPLAY;
+        String internalVer = SystemProperties.get(VERSION_PROPERTY,
+                mContext.getString(R.string.device_info_default));
+        return osVer + " | " + internalVer;
     }
 }
