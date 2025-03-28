@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Aquesta aplicació no és compatible amb la configuració avançada"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Més opcions de configuració"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Hi ha més opcions de configuració disponibles en aquesta aplicació"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Moderació de notificacions"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Utilitza la moderació de notificacions"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Quan rebis moltes notificacions en poc temps, el dispositiu abaixarà el volum i minimitzarà les alertes durant un màxim de 2 minuts. Les trucades, les alarmes i les converses prioritàries no es veuran afectades. \n\nLes notificacions rebudes durant el període de moderació es podran trobar en lliscar cap avall des de la part superior de la pantalla."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Aplica als perfils de treball"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Aplica a les aplicacions del perfil de treball"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Serveis d\'ajuda per a RV"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Cap aplicació instal·lada no ha sol·licitat que s\'executi com un servei d\'ajuda per a RV."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Vols permetre que <xliff:g id="SERVICE">%1$s</xliff:g> accedeixi al servei RV?"</string>

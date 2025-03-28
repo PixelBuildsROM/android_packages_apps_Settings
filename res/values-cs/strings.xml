@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Tato aplikace nepodporuje rozšířená nastavení"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Další nastavení"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Další nastavení jsou k dispozici uvnitř aplikace"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Zeslabení oznámení"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Používat zeslabení oznámení"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Když během krátké doby obdržíte mnoho oznámení, zařízení až na dvě minuty sníží hlasitost a minimalizuje upozornění. Hovorů, budíků a prioritních konverzací se to nedotkne. \n\nOznámení přijatá během zeslabení zobrazíte přejetím prstem dolů z horního okraje obrazovky."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Aplikovat u pracovních profilů"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Používat u aplikací v pracovním profilu"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Pomocné služby VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Žádné nainstalované aplikace nepožádaly o spuštění jako pomocná služba VR."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Povolit službě <xliff:g id="SERVICE">%1$s</xliff:g> přístup ke službě virtuální reality?"</string>

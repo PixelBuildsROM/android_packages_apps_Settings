@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"ವರ್ಧಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಈ ಆ್ಯಪ್ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"ಇನ್ನಷ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"ಇನ್ನಷ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಈ ಆ್ಯಪ್‌ನ ಒಳಗೆ ಲಭ್ಯವಿವೆ"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"ನೋಟಿಫಿಕೇಶನ್ ಕೂಲ್‌ಡೌನ್"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"ನೋಟಿಫಿಕೇಶನ್ ಕೂಲ್‌ಡೌನ್ ಅನ್ನು ಬಳಸಿ"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"ನೀವು ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸಿದಾಗ, ನಿಮ್ಮ ಸಾಧನವು 2 ನಿಮಿಷಗಳವರೆಗೆ ತನ್ನ ವಾಲ್ಯೂಮ್ ಅನ್ನು ತಗ್ಗಿಸುತ್ತದೆ ಮತ್ತು ಅಲರ್ಟ್‌ಗಳನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ಕರೆಗಳು, ಅಲಾರಂಗಳು ಮತ್ತು ಆದ್ಯತೆಯ ಸಂಭಾಷಣೆಗಳು ಪ್ರಭಾವಿತವಾಗುವುದಿಲ್ಲ. \n\nಕೂಲ್‌ಡೌನ್ ಸಮಯದಲ್ಲಿ ಸ್ವೀಕರಿಸಿದ ನೋಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ಕ್ರೀನ್‌ನ ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ಎಳೆಯುವ ಮೂಲಕ ಕಾಣಬಹುದಾಗಿದೆ."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"ಉದ್ಯೋಗದ ಪ್ರೊಫೈಲ್‌ಗಳಿಗೆ ಅನ್ವಯಿಸಿ"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"ಉದ್ಯೋಗ ಪ್ರೊಫೈಲ್‌ ಆ್ಯಪ್‌ಗಳಿಗೆ ಅನ್ವಯಿಸಿ"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR ಸಹಾಯ ಸೇವೆಗಳು"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"ಯಾವುದೇ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ ಆ್ಯಪ್‌ಗಳು VR ಅಸಿಸ್ಟೆಂಟ್ ಸೇವೆಗಳ ರೀತಿಯಲ್ಲಿ ರನ್ ಮಾಡಲು ವಿನಂತಿಸಿಲ್ಲ."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"<xliff:g id="SERVICE">%1$s</xliff:g> ಗೆ VR ಸೇವೆ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸುವುದೇ?"</string>

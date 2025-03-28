@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"ဤအက်ပ်က အဆင့်မြှင့်ထားသော ဆက်တင်များကို မပံ့ပိုးပါ"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"နောက်ထပ်ဆက်တင်များ"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"ဤအက်ပ်အတွင်း ဆက်တင်များ ရရှိနိုင်သည်"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"အကြောင်းကြားချက် သတိပေးမှု လျှော့ချခြင်း"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"အကြောင်းကြားချက် သတိပေးမှု လျှော့ချခြင်း သုံးရန်"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"အချိန်တိုအတွင်း အကြောင်းကြားချက်များစွာ ရပါက သင့်စက်သည် ၂ မိနစ်ကြာသည်အထိ အသံတိုးပြီး သတိပေးချက်များကို လျှော့ချပါမည်။ ခေါ်ဆိုမှု၊ နှိုးစက်နှင့် ဦးစားပေးစကားဝိုင်းများကို မသက်ရောက်ပါ။ \n\nသတိပေးမှု လျှော့ချစဉ်အချိန်အတွင်း ရရှိသော အကြောင်းကြားချက်များကို ဖန်သားပြင်ထိပ်ပိုင်းမှ အောက်သို့ဆွဲချခြင်းဖြင့် တွေ့နိုင်သည်။"</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"အလုပ်ပရိုဖိုင်များတွင် သုံးရန်"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"အလုပ်ပရိုဖိုင်အက်ပ်များတွင် သုံးရန်"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR အထောက်အကူပြု ဝန်ဆောင်မှုများ"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"ထည့်သွင်းထားသည့် မည်သည့်အက်ပ်ကိုမျှ VR အထောက်အကူပြု ဝန်ဆောင်မှုများအဖြစ် ဖွင့်ရန် တောင်းဆိုမထားပါ။"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"<xliff:g id="SERVICE">%1$s</xliff:g> အတွက် VR ဝန်ဆောင်မှု အသုံးပြုခွင့်ပြုမလား။"</string>

@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"此應用程式不支援進階設定"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"更多設定"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"你可在應用程式中使用更多設定"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"通知緩和"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"使用通知緩和"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"當你在短時間內收到太多通知時，裝置就會調低音量並減少通知數量最多兩分鐘。通話、鬧鐘和優先對話則不受影響。\n\n要查看緩和期間收到的通知，可從螢幕頂部向下掃。"</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"套用至工作設定檔"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"套用至工作設定檔應用程式"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR 助手服務"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"沒有已安裝的應用程式要求提供 VR 助手服務。"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"允許 VR 服務存取 <xliff:g id="SERVICE">%1$s</xliff:g> 嗎？"</string>

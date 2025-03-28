@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Šajā lietotnē netiek atbalstīti izvērsti iestatījumi."</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Citi iestatījumi"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Lietotnē ir pieejami citi iestatījumi"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Nogaidīšanas periods paziņojumiem"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Izmantot nogaidīšanas periodu paziņojumiem"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Ja īsā laika posmā saņemsiet daudz paziņojumu, ierīce samazinās skaļumu un brīdinājumu rādīšanu līdz pat divām minūtēm. Tas neattiecas uz zvaniem, signāliem un prioritārām sarunām. \n\nNogaidīšanas perioda laikā saņemtos paziņojumus var atrast, pavelkot lejup no ekrāna augšdaļas."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Lietot darba profiliem"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Lietot darba profila lietotnēm"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR palīga pakalpojumi"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Nevienai instalētajai lietotnei nav pieprasīta palaišana kā VR palīga pakalpojumam."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Vai atļaut VR pakalpojumam piekļūt pakalpojumam <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

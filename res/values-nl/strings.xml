@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Deze app ondersteunt geen uitgebreide instellingen"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Meer instellingen"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Er zijn meer instellingen beschikbaar in deze app"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Afkoelperiode van meldingen"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Afkoelperiode van meldingen gebruiken"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Als je in korte tijd veel meldingen krijgt, wordt het volume op je apparaat verlaagd en worden meldingen geminimaliseerd gedurende maximaal 2 minuten. Dit is niet van invloed op gesprekken, wekkers en prioriteitsgesprekken. \n\nDe meldingen die je tijdens de afkoelperiode krijgt, vind je door omlaag te swipen vanaf de bovenkant van het scherm."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Toepassen op werkprofielen"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Pas deze instelling toe op apps in werkprofielen"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR-helperservices"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Er zijn geen geïnstalleerde apps die hebben gevraagd om te worden uitgevoerd als VR-helperservices."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"VR-servicetoegang toestaan voor <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

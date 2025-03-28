@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Hierdie program steun nie verbeterde instellings nie"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Meer instellings"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Meer instellings is binne hierdie app beskikbaar"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Kennisgewingdemping"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Gebruik kennisgewingdemping"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Wanneer jy binne ’n kort tydperk baie kennisgewings kry, sal jou toestel vir tot 2 minute die volume sagter stel en waarskuwings minimeer. Oproepe, wekkers en prioriteitgesprekke word nie geraak nie. \n\nKennisgewings wat jy tydens demping kry, kan gekry word deur van die bokant van die skerm af te trek."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Pas toe op werkprofiele"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Pas toe op werkprofielapps"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR-helperdienste"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Geen geïnstalleerde programme het versoek om as VR-helperdienste te werk nie."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Gee <xliff:g id="SERVICE">%1$s</xliff:g> toegang tot VR-diens?"</string>

@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Апликацијава не поддржува подобрени поставки"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Повеќе поставки"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Повеќе поставки се достапни во апликацијава"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Подискретни известувања"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Користи „Подискретни известувања“"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Кога ќе добиете многу известувања во краток временски период, уредот ќе го намали звукот и ќе ги минимизира известувањата до 2 минути. Ова не влијае на повиците, алармите и приоритетните разговори. \n\nИзвестувањата добиени додека била вклучена „Подискретни известувања“ може да се најдат со повлекување надолу од горниот дел на екранот."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Примени на работни профили"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Применете на апликациите во работниот профил"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR помошни услуги"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Ниедна инсталирана апликација не побара да се извршува како VR помошните услуги."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Да се дозволи пристап до VR-услугата за <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Az alkalmazás nem támogatja a speciális beállításokat"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"További beállítások"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Ebben az alkalmazásban további beállítások állnak rendelkezésre"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Értesítések befagyasztása"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Az értesítések befagyasztásának használata"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Ha rövid időn belül sok értesítést kap, telefonja két percig csökkenti a hangerőt, és kis méretűre állítja a figyelmeztetéseket. A hívásokat, az ébresztéseket és a fontos beszélgetéseket nem érinti ez a beállítás. \n\nA befagyasztás ideje alatt kapott értesítések megtekintéséhez húzza lefelé az ujját a képernyő tetejéről."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Alkalmazás munkaprofilokra"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Alkalmazás a munkaprofil alkalmazásaira"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Virtuálisvalóság-segédszolgáltatás"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Egy telepített alkalmazás sem kérte, hogy virtuálisvalóság-segédszolgáltatásként legyen futtatva."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Hozzáférhet a(z) <xliff:g id="SERVICE">%1$s</xliff:g> a virtuálisvalóság-szolgáltatáshoz?"</string>

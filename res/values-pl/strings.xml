@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Ta aplikacja nie obsługuje ustawień zaawansowanych"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Więcej ustawień"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Więcej ustawień znajdziesz w tej aplikacji"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Wyciszanie powiadomień"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Używaj wyciszania powiadomień"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Gdy w krótkim czasie otrzymasz wiele powiadomień, urządzenie zmniejszy głośność i ograniczy liczbę alertów przez maksymalnie 2 minuty. Nie wpłynie to na połączenia, alarmy ani rozmowy priorytetowe. \n\nPowiadomienia otrzymane w tym czasie można zobaczyć po przesunięciu palcem z góry ekranu w dół."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Zastosuj do profili służbowych"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Zastosuj w aplikacjach profilu służbowego"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Usługi pomocnicze rzeczywistości wirtualnej"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Żadne zainstalowane aplikacje nie prosiły o uruchomienie w trybie usług pomocniczych rzeczywistości wirtualnej."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Zezwalasz usłudze <xliff:g id="SERVICE">%1$s</xliff:g> na dostęp do usług VR?"</string>

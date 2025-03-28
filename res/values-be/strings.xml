@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Гэта праграма не падтрымлівае пашыраныя налады"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Дадатковыя налады"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Іншыя налады даступныя ўнутры гэтай праграмы"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Зніжэнне гучнасці апавяшчэнняў"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Выкарыстаць зніжэнне гучнасці апавяшчэнняў"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Калі вам будзе прыходзіць многа апавяшчэнняў за кароткі час, прылада паменшыць іх гучнасць і абмяжуе абвесткі на перыяд да 2 хвілін. Гэта не закране выклікі, будзільнікі і прыярытэтныя размовы. \n\nКаб праглядзець апавяшчэнні, атрыманыя ў перыяд зніжэння гучнасці, правядзіце пальцам уніз ад верхняга краю экрана."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Прымяніць да працоўных профіляў"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Прымяняць да праграм працоўнага профілю"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Дапаможныя VR-сэрвісы"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Усталяваныя праграмы не запытвалі выканання ў якасці дапаможных VR-сэрвісаў."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Дазволіць сэрвісу віртуальнай рэальнасці (VR) доступ да <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

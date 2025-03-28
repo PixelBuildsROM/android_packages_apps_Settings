@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Aplikasi ini tidak mendukung setelan yang ditingkatkan"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Setelan lainnya"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Setelan lainnya tersedia di dalam aplikasi ini"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Pengurangan getaran dan suara notifikasi"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Gunakan pengurangan suara dan getaran notifikasi"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Saat Anda menerima banyak notifikasi dalam waktu singkat, perangkat akan menurunkan volumenya dan meminimalkan getaran hingga selama 2 menit. Panggilan, alarm, dan percakapan prioritas tidak akan terpengaruh. \n\nNotifikasi yang diterima saat pengurangan suara dan getaran diaktifkan dapat ditemukan dengan menarik layar ke bawah."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Terapkan pada profil kerja"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Diterapkan untuk aplikasi profil kerja"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Layanan bantuan VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Tidak ada aplikasi terinstal yang meminta dijalankan sebagai layanan bantuan VR"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Izinkan akses layanan VR untuk <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

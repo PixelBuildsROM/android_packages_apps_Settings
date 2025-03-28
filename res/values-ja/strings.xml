@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"このアプリは拡張設定に対応していません"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"その他の設定"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"このアプリ内でその他の設定を利用できます"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"通知のクールダウン"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"通知のクールダウンを使用する"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"短時間の間に通知が多く届いた場合に、最長 2 分間、デバイスが音量を下げて通知を最小限に抑えます。通話、アラーム、優先度の高い会話には影響しません。\n\nクールダウンの間に受信した通知は、画面上部から下にスワイプすると確認できます。"</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"仕事用プロファイルに適用する"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"仕事用プロファイルのアプリに適用する"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR ヘルパー サービス"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"VR ヘルパー サービスとしての実行権限をリクエストしたインストール済みアプリはありません。"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"VR サービスから <xliff:g id="SERVICE">%1$s</xliff:g> へのアクセスの許可"</string>

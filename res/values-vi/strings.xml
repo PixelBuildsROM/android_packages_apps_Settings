@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Ứng dụng này không hỗ trợ chế độ cài đặt nâng cao"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Chế độ cài đặt khác"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Các chế độ cài đặt khác có sẵn trong ứng dụng này"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Giảm dần âm lượng cho thông báo"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Dùng tính năng giảm dần âm lượng thông báo"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Khi bạn nhận được nhiều thông báo trong một thời gian ngắn, thiết bị của bạn sẽ hạ âm lượng và giảm thiểu cảnh báo trong tối đa 2 phút. Cuộc gọi, chuông báo và cuộc trò chuyện ưu tiên sẽ không bị ảnh hưởng. \n\nBạn có thể kéo xuống từ đầu màn hình để xem các thông báo nhận được trong lúc giảm dần âm lượng thông báo."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Áp dụng cho hồ sơ công việc"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Áp dụng cho các ứng dụng trong hồ sơ công việc"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Dịch vụ trình trợ giúp thực tế ảo"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Không có ứng dụng đã cài đặt nào yêu cầu được chạy dưới dạng dịch vụ trình trợ giúp thực tế ảo."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Cho phép <xliff:g id="SERVICE">%1$s</xliff:g> truy cập dịch vụ thực tế ảo?"</string>

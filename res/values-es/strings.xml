@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Esta aplicación no admite la configuración avanzada"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Más ajustes"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Hay más ajustes disponibles en la aplicación"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Bajar volumen de notificaciones"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Bajar el volumen de notificaciones"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Cuando recibas muchas notificaciones en poco tiempo, tu dispositivo bajará el volumen y minimizará las alertas durante un máximo de 2 minutos. Las llamadas, alarmas y conversaciones prioritarias no se verán afectadas. \n\nLas notificaciones recibidas durante ese periodo se pueden encontrar arrastrando hacia abajo la parte superior de la pantalla."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Aplicar a perfiles de trabajo"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Se aplica a las aplicaciones del perfil de trabajo"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Servicios de ayuda de RV"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Ninguna aplicación instalada ha solicitado ejecutarse como servicio de ayuda de RV."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"¿Permitir que el servicio de RV acceda a <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

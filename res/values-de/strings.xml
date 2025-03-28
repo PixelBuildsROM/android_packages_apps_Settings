@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Diese App unterstützt erweiterte Einstellungen nicht"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Weitere Einstellungen"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Weitere Einstellungen sind in dieser App verfügbar"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Benachrichtigungen reduzieren"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"„Benachrichtigungen reduzieren” aktivieren"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Wenn du viele Benachrichtigungen hintereinander erhältst, verringert dein Gerät für bis zu 2 Minuten die Lautstärke der Benachrichtigungssignale und minimiert die Benachrichtigungen. Anrufe, Wecker und priorisierte Unterhaltungen sind davon nicht betroffen. \n\nDie während dieser Zeit eingegangenen Benachrichtigungen kannst du dir ansehen, indem du vom oberen Rand des Displays nach unten wischst."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Auf Arbeitsprofile anwenden"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Auf Apps im Arbeitsprofil anwenden"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR-Hilfsdienste"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Keine installierte App hat die Ausführung als VR-Hilfedienst angefordert."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"VR-Dienstzugriff für <xliff:g id="SERVICE">%1$s</xliff:g> erlauben?"</string>

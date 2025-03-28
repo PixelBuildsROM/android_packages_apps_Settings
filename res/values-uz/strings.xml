@@ -3309,6 +3309,11 @@
     <string name="notif_listener_not_migrated" msgid="6265206376374278226">"Bu ilovada kengaytirilgan sozlamalar ishlamaydi"</string>
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Boshqa sozlamalar"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Boshqa sozlamalar bu ilova ichida joylashgan"</string>
+    <string name="notification_polite_title" msgid="6121016426991791557">"Bildirishnomalar ovozini pasaytirish"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Bildirishnomalar ovozini pasaytirish"</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Qisqa vaqt oraligʻida koʻp bildirishnoma kelsa, qurilmangizdagi tovush balandligi hamda signallar davomiyligi 2 daqiqagacha kamaytiriladi. Chaqiruvlar, signallar va muhim suhbatlarga taʼsir qilmaydi. \n\nSekinlatish paytida olingan bildirishnomalarni ekranning yuqori qismidan pastga tortish orqali topish mumkin."</string>
+    <string name="notification_polite_work" msgid="8823596456640216391">"Ish profillariga tatbiq qilish"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Ish profilidagi ilovalar uchun qoʻllash"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Yordamchi VR xizmatlar"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Hech qanday ilova yordamchi VR xizmatlar sifatida ishga tushirilishiga ruxsat so‘ramagan."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"VR xizmatiga “<xliff:g id="SERVICE">%1$s</xliff:g>” xizmatidan foydalanishga ruxsat berilsinmi?"</string>
