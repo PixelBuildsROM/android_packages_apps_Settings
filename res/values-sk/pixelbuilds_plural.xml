@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Až <xliff:g id="device_num">%1$d</xliff:g> zariadení sa môže pripojiť k tomuto hotspotu</item>
+        <item quantity="one">Až <xliff:g id="device_num">%1$d</xliff:g> zariadenie sa môže pripojiť k tomuto hotspotu</item>
+        <item quantity="few">Až <xliff:g id="device_num">%1$d</xliff:g> zariadenia sa môžu pripojiť k tomuto hotspotu</item>
+        <item quantity="many">Až <xliff:g id="device_num">%1$d</xliff:g> zariadení sa môže pripojiť k tomuto hotspotu</item>
+    </plurals>
+</resources>

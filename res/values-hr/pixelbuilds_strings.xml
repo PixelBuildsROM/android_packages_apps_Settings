@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_hotspot_client_manager_title">Povezani uređaji</string>
+    <string name="wifi_hotspot_client_manager_summary">Popis i upravljanje uređajima povezanih na pristupnu točku</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Popis uređaja povezanih na pristupnu točku</string>
+    <string name="wifi_hotspot_client_limit_title">Ograničenje povezanih uređaja</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokirani uređaji</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Povezani uređaji</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokiraj uređaj</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ova radnja će prekinuti vezu \"<xliff:g id="device_name">%1$s</xliff:g>\" s ovim uređajem i dodati ga na popis blokiranih</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokiraj uređaj</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Uređaj \"<xliff:g id="device_name">%1$s</xliff:g>\" moći će se povezati s ovom pristupnom točkom</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Trenutno nema dostupnih klijenata. Povezani i blokirani uređaji bit će navedeni ovdje kada budu dostupni.</string>
+</resources>

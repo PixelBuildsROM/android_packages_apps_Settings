@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_hotspot_client_manager_title">已连接设备</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理连接到热点的设备</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">最大连接设备数</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已封锁的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">封锁设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与此设备的连接，并将其添加到封锁(阻止)列表</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解锁设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到此热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端，连接和被封锁的设备可用时将在此处列出。</string>
+</resources>
