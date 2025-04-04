@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Na dostopno točko je lahko povezanih do <xliff:g id="device_num">%1$d</xliff:g> naprav</item>
+        <item quantity="one">Na dostopno točko je lahko povezana do <xliff:g id="device_num">%1$d</xliff:g> naprava</item>
+        <item quantity="two">Na dostopno točko sta lahko povezani do <xliff:g id="device_num">%1$d</xliff:g> napravi</item>
+        <item quantity="few">Na dostopno točko so lahko povezane do <xliff:g id="device_num">%1$d</xliff:g> naprave</item>
+    </plurals>
+</resources>

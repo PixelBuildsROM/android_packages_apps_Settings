@@ -36,4 +36,15 @@
     <string name="charging_control_target_time_summary">Акумулятар будзе цалкам зараджаны да %s</string>
     <string name="charging_control_limit_title">Ліміт</string>
     <string name="reset">Скінуць</string>
+    <string name="wifi_hotspot_client_manager_title">Падлучаныя прылады</string>
+    <string name="wifi_hotspot_client_manager_summary">Спіс і кіраванне прылад, падлучаных да пункту доступу</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Спіс прылад, падлучаных да пункту доступу</string>
+    <string name="wifi_hotspot_client_limit_title">Ліміт падлучаных прылад</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблакаваныя прылады</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Падлучаныя прылады</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблакаваныя прылады</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Гэта дзеянне адключыць \"<xliff:g id="device_name">%1$s</xliff:g>\" ад гэтай прылады і дадасць яго ў спіс блакавання</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Разблакаваць прыладу</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Гэтая прылада \"<xliff:g id="device_name">%1$s</xliff:g>\" зможа падлучыцца да гэтага пункту доступу</string>
+    <string name="wifi_hotspot_client_manager_footer_text">У гэты час няма даступных кліентаў. Падлучаныя і заблакаваныя прылады будуць пералічаны тут, калі яны стануць даступныя.</string>
 </resources>

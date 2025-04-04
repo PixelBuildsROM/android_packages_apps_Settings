@@ -17,4 +17,15 @@
     <string name="charging_control_target_time_summary">La bateria es carregarà completament en %s</string>
     <string name="charging_control_limit_title">Límit</string>
     <string name="reset">Restableix</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_client_manager_summary">Mostra i gestiona els dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mostra els dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_limit_title">Límit de dispositius connectats</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositius bloquejats</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloqueja el dispositiu</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Aquesta acció desconnectarà \"<xliff:g id="device_name">%1$s</xliff:g>\" d\'aquest dispositiu i l\'afegirà a la llista de bloqueig</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloqueja el dispositiu</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositiu «<xliff:g id="device_name">%1$s</xliff:g>» podrà connectar-se al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Actualment no hi ha clients disponibles. Els dispositius connectats i bloquejats es mostraran aquí quan estiguin disponibles.</string>
 </resources>

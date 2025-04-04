@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_hotspot_client_manager_title">Ühendatud seadmed</string>
+    <string name="wifi_hotspot_client_manager_summary">Kuva ja halda kuumkohaga ühendatud seadmeid</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Kuva kuumkohaga ühendatud seadmed</string>
+    <string name="wifi_hotspot_client_limit_title">Ühendatud seadmete limiit</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokeeritud seadmed</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Ühendatud seadmed</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokeeri seade</string>
+    <string name="wifi_hotspot_block_client_dialog_text">See toiming katkestab \"<xliff:g id="device_name">%1$s</xliff:g>\" ühenduse selle seadmega ja lisab selle blokeerimisloendisse</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Eemalda seadme blokeering</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Seade \"<xliff:g id="device_name">%1$s</xliff:g>\" saab selle kuumkohaga ühenduse luua</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Hetkel pole ühtegi klienti saadaval. Ühendatud ja blokeeritud seadmed kuvatakse siin, kui need on saadaval.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz ja 5 GHz</string>
+</resources>
