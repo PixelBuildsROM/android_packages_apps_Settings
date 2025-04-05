@@ -31,4 +31,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz engelini kaldır</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot\'a bağlanabilecek</string>
     <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Hotspot isminiz kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
 </resources>

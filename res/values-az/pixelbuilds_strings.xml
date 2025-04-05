@@ -11,4 +11,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz blokunu qaldır</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" Bu hotspota qoşula biləcək</string>
     <string name="wifi_hotspot_client_manager_footer_text">Hazırda heç bir müştəri yoxdur. Qoşulmuş və bloklanmış cihazlar mövcud olduqda burada siyahıya alınacaq.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli şəbəkə</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Mobil \"Hotspot\"unuzun adı mövcud WLAN şəbəkələri siyahısından görünməyəcək.</string>
 </resources>

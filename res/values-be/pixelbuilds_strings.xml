@@ -47,4 +47,9 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Разблакаваць прыладу</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Гэтая прылада \"<xliff:g id="device_name">%1$s</xliff:g>\" зможа падлучыцца да гэтага пункту доступу</string>
     <string name="wifi_hotspot_client_manager_footer_text">У гэты час няма даступных кліентаў. Падлучаныя і заблакаваныя прылады будуць пералічаны тут, калі яны стануць даступныя.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Схаваная сетка</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Імя вашага хот-споту не з\'явіцца ў спісе даступных сетак WLAN.</string>
+    <string name="top_level_connectivity">Сувязь</string>
+    <string name="top_level_personalize">Каманляваць</string>
+    <string name="top_level_system">Сістэма</string>
 </resources>

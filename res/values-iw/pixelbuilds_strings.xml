@@ -11,4 +11,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">ביטול חסימת המכשיר</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">המכשיר \"<xliff:g id="device_name">%1$s</xliff:g>\" יוכל להתחבר לנקודת גלישה זו</string>
     <string name="wifi_hotspot_client_manager_footer_text">אין כעת מכשירים מחוברים. מכשירים מחוברים וחסומים יפורטו כאן כשיהיו זמינים.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">רשת מוסתרת</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">שם נקודת הגלישה שלך לא יוצג ברשימת הרשתות הזמינות.</string>
 </resources>

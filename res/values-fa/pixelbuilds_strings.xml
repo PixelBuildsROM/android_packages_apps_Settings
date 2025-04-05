@@ -11,4 +11,10 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">رفع انسداد دستگاه</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">هیچ مشتری در حال حاضر در دسترس نیست.  دستگاه های متصل و مسدود شده در صورت موجود بودن در اینجا فهرست می شوند.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">مخفی کردن شبکه</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">نام نقطه اتصال تلفن همراه شما در لیست شبکه های WLAN موجود ظاهر نمی شود.</string>
+    <string name="top_level_connectivity">اتصالات</string>
+    <string name="top_level_personalize">شخصی سازی</string>
+    <string name="top_level_security">امنیت</string>
+    <string name="top_level_system">سیستم</string>
 </resources>

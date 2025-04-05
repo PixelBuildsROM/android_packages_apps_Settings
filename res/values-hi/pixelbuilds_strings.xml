@@ -20,4 +20,7 @@
     <string name="idle_manager_summary">फ़ोन निष्क्रिय होने पर सभी गैर-आवश्यक इलेक्ट्रॉनिक्स बंद कर दें</string>
     <string name="system_black_theme_title">काले थीम का उपयोग करें</string>
     <string name="system_black_theme_summary">पार्श्वभूमि पे काला रंग मजबूर करे</string>
+    <string name="top_level_connectivity">कनेक्टिविटी</string>
+    <string name="top_level_personalize">वैयक्तिकरणकर्ता</string>
+    <string name="top_level_system">प्रणाली</string>
 </resources>

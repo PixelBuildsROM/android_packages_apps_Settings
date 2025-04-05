@@ -11,4 +11,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Odblokovať zariadenie</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Toto zariadenie \"<xliff:g id="device_name">%1$s</xliff:g>\" sa bude môcť pripojiť k tomuto hotspotu</string>
     <string name="wifi_hotspot_client_manager_footer_text">Momentálne nie sú žiadne zariadenia dostupné. Pripojené a zablokované zariadenia budú zobrazené v tomto zozname, keď budú dostupné.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Skrytá sieť</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Názov vášho mobilného hotspotu sa nezobrazí v zozname dostupných WLAN sietí.</string>
 </resources>

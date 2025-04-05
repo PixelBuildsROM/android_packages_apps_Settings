@@ -11,4 +11,9 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">不阻止设备</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
     <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。如果可用，将在此处列出已连接和已阻止的设备。</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏网络</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称将不会出现在可用的 WLAN 网络列表中</string>
+    <string name="top_level_connectivity">连接性</string>
+    <string name="top_level_personalize">个性化</string>
+    <string name="top_level_system">系统</string>
 </resources>

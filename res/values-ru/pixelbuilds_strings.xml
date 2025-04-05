@@ -47,4 +47,9 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Устройство «<xliff:g id="device_name">%1$s</xliff:g>» сможет подключаться к этой точке доступа</string>
     <string name="wifi_hotspot_client_manager_footer_text">На данный момент нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь, когда они станут доступны</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Имя вашей мобильной точки доступа не будет отображаться в списке доступных сетей WLAN.</string>
+    <string name="top_level_connectivity">Связь</string>
+    <string name="top_level_personalize">Персонализировать</string>
+    <string name="top_level_system">Система</string>
 </resources>

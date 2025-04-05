@@ -11,4 +11,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Deblokiraj uredjaj</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nijedan klijent nije trenutno dostupan. Pobezani i blokirani uredjaji će biti prikazani ovde kada budu dostupni.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
 </resources>

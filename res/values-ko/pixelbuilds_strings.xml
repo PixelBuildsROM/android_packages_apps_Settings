@@ -11,4 +11,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">기기 차단 해제</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" 기기가 이 핫스팟에 연결할 수 있게 됩니다</string>
     <string name="wifi_hotspot_client_manager_footer_text">표시할 클라이언트가 없습니다. 연결된 기기와 차단한 기기가 여기에 표시됩니다</string>
+    <string name="wifi_hotspot_hidden_ssid_title">숨겨진 네트워크</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">내 모바일 핫스팟의 이름을 사용 가능한 무선랜 목록에 표시하지 않게 합니다</string>
 </resources>

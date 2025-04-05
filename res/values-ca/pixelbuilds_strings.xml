@@ -28,4 +28,9 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Desbloqueja el dispositiu</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">El dispositiu «<xliff:g id="device_name">%1$s</xliff:g>» podrà connectar-se al punt d\'accés</string>
     <string name="wifi_hotspot_client_manager_footer_text">Actualment no hi ha clients disponibles. Els dispositius connectats i bloquejats es mostraran aquí quan estiguin disponibles.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Xarxa oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nom del punt d\'accés mòbil no apareixerà a la llista de xarxes WLAN disponibles.</string>
+    <string name="top_level_connectivity">Connectivitat</string>
+    <string name="top_level_personalize">Personalitzar</string>
+    <string name="top_level_system">Sistema</string>
 </resources>
