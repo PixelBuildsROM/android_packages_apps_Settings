@@ -11,4 +11,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Apparaat deblokkeren</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Het apparaat \"<xliff:g id="device_name">%1$s</xliff:g>\" zal kunnen verbinden met deze hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Er zijn momenteel geen clients beschikbaar. Verbonden en geblokkeerde apparaten zullen hier worden weergegeven wanneer beschikbaar.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Verborgen netwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">De naam van uw mobiele hotspot zal niet worden weergegeven in de lijst met beschikbare WLAN-netwerken.</string>
 </resources>

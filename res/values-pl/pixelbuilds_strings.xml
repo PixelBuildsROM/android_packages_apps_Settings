@@ -47,4 +47,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Odblokuj urządzenie</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Urządzenie \"<xliff:g id="device_name">%1$s</xliff:g>\" będzie mogło połączyć się z tym punktem dostępu</string>
     <string name="wifi_hotspot_client_manager_footer_text">Aktualnie brak dostępnych urządzeń. Połączone i zablokowane urządzenia zostaną wyświetlone tutaj, jeśli będą dostępne.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Sieć ukryta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nazwa twojego punktu dostępu nie pojawi się na liście dostępnych sieci WiFi.</string>
 </resources>
