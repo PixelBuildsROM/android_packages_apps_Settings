@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="refresh_rate_title">画面リフレッシュレート</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">前面にある指紋認証センサーをタッチして下さい</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">背面にある指紋認証センサーをタッチして下さい</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">側面にある指紋認証センサーをタッチして下さい</string>
+    <string name="storage_warning_internal">警告: このオプションは正常に動作しなかったり、データが失われる可能性があるので推奨されません</string>
+    <string name="build_date">ビルド日時</string>
+    <string name="icon_manager_title">アイコンの管理</string>
+    <string name="icon_manager_summary">ステータスバーのアイコンの表示を制御します</string>
+    <string name="status_bar_double_tap_to_sleep_title">タップでスリープ</string>
+    <string name="status_bar_double_tap_to_sleep_summary">ステータスバーかロック画面をダブルタップして画面を消灯する</string>
+    <string name="swipe_to_screenshot_gesture_title">スワイプでスクリーンショット</string>
+    <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを撮影します</string>
+    <string name="volume_button_music_control_title">再生コントロール</string>
+    <string name="volume_button_music_control_summary">画面の消灯時に音量ボタンを長押しで音楽のトラックをスキップします</string>
+    <string name="idle_manager_title">バックグラウンドプロセスを終了</string>
+    <string name="idle_manager_summary">端末が休止状態の時は不可欠でないバックグラウンドプロセスを全て停止させる</string>
+    <string name="system_black_theme_title">ブラックテーマを使用</string>
+    <string name="system_black_theme_summary">背景色を強制的に黒にする</string>
     <string name="wifi_hotspot_client_manager_title">接続済みのデバイス</string>
     <string name="wifi_hotspot_client_manager_summary">ホットスポットに接続されているデバイスのリストを表示して管理します</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">ホットスポットに接続されたデバイス一覧</string>

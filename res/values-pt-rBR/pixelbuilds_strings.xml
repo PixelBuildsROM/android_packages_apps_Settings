@@ -7,6 +7,7 @@
     <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte traseira do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na parte lateral do seu telefone.</string>
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados e, portanto, não é recomendado!</string>
+    <string name="build_date">Data de compilação</string>
     <string name="icon_manager_title">Gerenciador de ícones</string>
     <string name="icon_manager_summary">Controle de visibilidade dos ícones da barra de status</string>
     <string name="status_bar_double_tap_to_sleep_title">Toque para dormir</string>
@@ -17,6 +18,8 @@
     <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione os botões de volume para pular faixas de música</string>
     <string name="idle_manager_title">Encerrar processos em segundo plano</string>
     <string name="idle_manager_summary">Parar todos os processos em segundo plano não essenciais quando o dispositivo está ocioso</string>
+    <string name="system_black_theme_title">Usar tema preto</string>
+    <string name="system_black_theme_summary">Forçar tema preto para a cor de fundo</string>
     <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
     <string name="wifi_hotspot_client_manager_summary">Listar e gerenciar dispositivos conectados ao ponto de acesso</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Lista de dispositivos conectados ao ponto de acesso</string>
