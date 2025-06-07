@@ -176,12 +176,16 @@ public class FaceSettings extends DashboardFragment {
         mUserManager = context.getSystemService(UserManager.class);
         mFaceManager = context.getSystemService(FaceManager.class);
         mDevicePolicyManager = context.getSystemService(DevicePolicyManager.class);
-        mToken = getIntent().getByteArrayExtra(KEY_TOKEN);
-        mSensorId = getIntent().getIntExtra(BiometricEnrollBase.EXTRA_KEY_SENSOR_ID, -1);
-        mChallenge = getIntent().getLongExtra(BiometricEnrollBase.EXTRA_KEY_CHALLENGE, 0L);
 
-        mUserId = getActivity().getIntent().getIntExtra(
+        final SettingsActivity activity = (SettingsActivity) requireActivity();
+        final String callingPackage = activity.getInitialCallingPackage();
+        if (callingPackage == null || !callingPackage.equals(activity.getPackageName())) {
+            mUserId = UserHandle.myUserId();
+        } else {
+            mUserId = getActivity().getIntent().getIntExtra(
                 Intent.EXTRA_USER_ID, UserHandle.myUserId());
+        }
+
         mFaceFeatureProvider = FeatureFactory.getFactory(getContext()).getFaceFeatureProvider();
 
         if (mUserManager.getUserInfo(mUserId).isManagedProfile()) {
