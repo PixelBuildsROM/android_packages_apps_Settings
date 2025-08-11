@@ -118,6 +118,6 @@ public class FaceSettingsAttentionPreferenceController extends FaceSettingsPrefe
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 }
