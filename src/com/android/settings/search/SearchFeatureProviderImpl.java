@@ -44,8 +44,7 @@ public class SearchFeatureProviderImpl implements SearchFeatureProvider {
         }
         final boolean isSettingsPackage = TextUtils.equals(callerPackage, context.getPackageName())
                 || TextUtils.equals(getSettingsIntelligencePkgName(context), callerPackage);
-        final boolean isAllowlistedPackage = isSignatureAllowlisted(context, callerPackage)
-                || TextUtils.equals("com.google.android.apps.nexuslauncher", callerPackage);
+        final boolean isAllowlistedPackage = isSignatureAllowlisted(context, callerPackage);
         if (isSettingsPackage || isAllowlistedPackage) {
             return;
         }
