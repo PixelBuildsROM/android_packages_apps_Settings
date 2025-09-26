@@ -210,6 +210,10 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         super.onCreatePreferences(savedInstanceState, rootKey);
         int tintColor = Utils.getHomepageIconColor(getContext());
         iteratePreferences(preference -> {
+            String prefKey = preference.getKey();
+            if ("top_level_wellbeing".equals(prefKey)) {
+                preference.setIcon(R.drawable.ic_digital_wellbeing_settings_default);
+            }
             Drawable icon = preference.getIcon();
             if (icon != null) {
                 icon.setTint(tintColor);
