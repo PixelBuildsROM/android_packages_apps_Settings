@@ -51,6 +51,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="marquee"
             android:singleLine="true"
+            android:lineBreakWordStyle="phrase"
             style="@style/pbTextPrimaryMedium" />
         <TextView
             android:id="@android:id/summary"
@@ -59,7 +60,8 @@
             android:layout_below="@android:id/title"
             android:layout_alignStart="@android:id/title"
             android:layout_marginTop="4dp"
-            android:singleLine="true"
+            android:maxLines="4"
+            android:lineBreakWordStyle="phrase"
             style="@style/pbTextSecondary" />
     </RelativeLayout>
 </LinearLayout>
