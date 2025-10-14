@@ -20,6 +20,56 @@
     <string name="idle_manager_summary">Ferma tutti i processi in background non essenziali quando il dispositivo è inattivo</string>
     <string name="system_black_theme_title">Usa tema nero</string>
     <string name="system_black_theme_summary">Forza colori di sfondo neri</string>
+    <string name="ambient_display_wake_screen_footer">Pixel utilizza il Motion Sense per rilevare il movimento nelle vicinanze. Non utilizza la fotocamera, il microfono o la posizione.</string>
+    <string name="ambient_display_wake_screen_summary">Per controllare l\'ora, le notifiche e altre informazioni, avvicinati al tuo telefono</string>
+    <string name="ambient_display_wake_screen_summary_on">Attivo</string>
+    <string name="ambient_display_wake_screen_title">Raggiungi per controllare il telefono</string>
+    <string name="aware_category_display">Ambient display</string>
+    <string name="aware_category_gesture">Gesti rapidi</string>
+    <string name="aware_category_security">Sicurezza schermo</string>
+    <string name="aware_disabled_preference_action">Impostazioni Motion Sense</string>
+    <string name="aware_disabled_preference_dialog_content">Per utilizzare questa funzione, attiva Motion Sense</string>
+    <string name="aware_disabled_preference_dialog_title">Questa funzione è disattivata</string>
+    <string name="aware_display_settings_title">Schermata di blocco a riposo</string>
+    <string name="aware_lock_title">Blocco automatico quando nessuno è in giro</string>
+    <string name="aware_settings_description">Pixel utilizza un sensore per riconoscere la distanza e il movimento intorno al telefono</string>
+    <string name="aware_settings_disabled_info_dialog_content">Funzioni Motion Sense come Gesti Rapidi, mostra il display nelle vicinanze e raggiungi il numero di telefono non supportato in questo paese</string>
+    <string name="aware_settings_disabled_info_dialog_title">Motion Sense è disattivato</string>
+    <string name="aware_settings_enabled_info_dialog_content">Funzioni Motion Sense come Gesti Rapidi, mostra il display quando nelle vicinanze e raggiungi il numero di telefono non sono supportate in questo paese</string>
+    <string name="aware_settings_enabled_info_dialog_title">Motion Sense è attivo</string>
+    <string name="aware_settings_suggestion_summary">Prova i gesti rapidi per saltare i brani e altro</string>
+    <string name="aware_settings_suggestion_title">Usa Senso Di Movimento</string>
+    <string name="aware_settings_summary">Acceso/Rileva il movimento intorno al telefono</string>
+    <string name="aware_settings_title">Sensore di Movimento</string>
+    <string name="aware_wake_display_summary">Visualizza orario, icone di notifica e altre informazioni quando sei nelle vicinanze</string>
+    <string name="aware_wake_display_summary_aod_off">Non disponibile perché lo schermo Sempre Acceso è disattivato</string>
+    <string name="aware_wake_display_title">Acceso quando sei vicino</string>
+    <string name="dialog_aware_settings_message">Se disattivi Motion Sense non potrai usare i Gesti Rapidi, il \"mostra lo schermo quando nelle vicinanze\" e \"avvicinati per controllare il telefono\"</string>
+    <string name="dialog_aware_settings_title">Disattivare il senso di movimento?</string>
+    <string name="gesture_aware_disabled_info_dialog_content">I gesti rapidi e le altre funzioni di Motion Sense non sono supportate in questo paese.</string>
+    <string name="gesture_aware_footer">I Gesti Rapidi usano il Motion Sense. Per saperne di più sui Gesti Rapidi in Pixel Tips.</string>
+    <string name="gesture_aware_off_dialog_content">Per utilizzare gesti rapidi, attiva Motion Sense.</string>
+    <string name="gesture_aware_off_dialog_title">Gesti rapidi disattivati</string>
+    <string name="gesture_silence_footer"><annotation link="link">Preferenze</annotation></string>
+    <string name="gesture_silence_off_summary">Off / Snooze allarmi e chiamate silenziose</string>
+    <string name="gesture_silence_on_summary">On / Rimanda sveglie e silenzia le chiamate</string>
+    <string name="gesture_silence_summary">Posticipa allarmi e silenzia chiamate</string>
+    <string name="gesture_silence_title">Silenzia le interruzioni</string>
+    <string name="gesture_skip_footer"><annotation link="link">Preferenze</annotation></string>
+    <string name="gesture_skip_direction_ltr">Scorri da sinistra a destra per il brano successivo</string>
+    <string name="gesture_skip_direction_rtl">Scorri da destra a sinistra per il brano successivo</string>
+    <string name="gesture_skip_direction_title">Direzione dello scorrimento</string>
+    <string name="gesture_skip_off_summary">Off / Salta al brano successivo o precedente</string>
+    <string name="gesture_skip_on_summary">On / Skip to the next or previous song</string>
+    <string name="gesture_skip_summary">Passa al brano successivo o precedente</string>
+    <string name="gesture_skip_title">Salta brani</string>
+    <string name="gesture_tap_footer"><annotation link="link">Preferenze</annotation></string>
+    <string name="gesture_tap_on_summary">Attiva / Pausa o riprendi musica</string>
+    <string name="gesture_tap_summary">Sospendi o riprendi la musica toccando l\'aria sopra il telefono</string>
+    <string name="gesture_tap_title">Pausa musica</string>
+    <string name="keywords_arm_reach">Prossimità, Sicurezza, Blocco, Sensore, Braccio, Raccogliere, Movimento, spostare, sbloccare, rilevare, vicino</string>
+    <string name="keywords_aware_gesture">Gesti rapidi, salto, canzoni, silenzio, chiamata, allarme, timer</string>
+    <string name="keywords_aware_lock">Prossimità, Sicurezza, Blocco, Sensore, Movimento, Movimento, Sbloccare, rilevare, vicino, senso</string>
     <string name="charging_control_title">Controllo di carica</string>
     <string name="charging_control_summary">Personalizza il programma di ricarica e i limiti per la batteria</string>
     <string name="charging_control_enable_title">Abilita il controllo della ricarica</string>
@@ -36,6 +86,8 @@
     <string name="charging_control_target_time_summary">La batteria sarà completamente carica entro %s</string>
     <string name="charging_control_limit_title">Limite</string>
     <string name="reset">Ripristina</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo Hotspot non apparirà nella lista delle reti Wi-Fi disponibili.</string>
     <string name="wifi_hotspot_client_manager_title">Dispositivi connessi</string>
     <string name="wifi_hotspot_client_manager_summary">Elenca e gestisci i dispositivi connessi all\'hotspot</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Lista dei dispositivi connessi all\'hotspot</string>
@@ -47,8 +99,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Sblocca dispositivo</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Il dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" sarà in grado di connettersi a questo hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nessun client è al momento disponibile. I dispositivi connessi e bloccati saranno mostrati qui quando disponibili.</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo Hotspot non apparirà nella lista delle reti Wi-Fi disponibili.</string>
     <string name="top_level_connectivity">Connettività</string>
     <string name="top_level_personalize">Personalizzare</string>
     <string name="top_level_system">Sistema</string>

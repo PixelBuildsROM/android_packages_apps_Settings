@@ -17,6 +17,8 @@
     <string name="volume_button_music_control_summary">ضغط أزرار الصوت مطولا والشاشة منطفئة سيؤدي للانتقال للمقطع الصوتي التالي</string>
     <string name="idle_manager_title">إجهاض العمليات الخلفية</string>
     <string name="idle_manager_summary">إيقاف جميع العمليات غير الأساسية في الخلفية عندما يكون الجهاز خاملاً</string>
+    <string name="wifi_hotspot_hidden_ssid_title">شبكة مخفية</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">لن يظهر اسم نقطة اتصال هاتفك المحمول في قائمة شبكات WLAN المتاحة.</string>
     <string name="wifi_hotspot_client_manager_title">الأجهزة المتصلة</string>
     <string name="wifi_hotspot_client_manager_summary">قائمة بالأجهزة المتصلة بنقطة الاتصال وإدارتها</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">عرض الأجهزة المتصلة بنقطة الاتصال.</string>
@@ -28,6 +30,4 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">إلغاء حظر الجهاز</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">هذا الجهاز\"<xliff:g id="device_name">%1$s</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</string>
     <string name="wifi_hotspot_client_manager_footer_text">لا يوجد عملاء متوفرين حاليا. سيتم إدراج الأجهزة الموصولة والمحظورة هنا عندما تكون متاحة.</string>
-    <string name="wifi_hotspot_hidden_ssid_title">شبكة مخفية</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">لن يظهر اسم نقطة اتصال هاتفك المحمول في قائمة شبكات WLAN المتاحة.</string>
 </resources>

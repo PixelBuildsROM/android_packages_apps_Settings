@@ -20,6 +20,8 @@
     <string name="idle_manager_summary">當裝置閒置時，停止所有非必要的背景程式</string>
     <string name="system_black_theme_title">使用黑色主題</string>
     <string name="system_black_theme_summary">強制使用黑色背景</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隱藏網路</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的無線基地台將不會公開顯示。</string>
     <string name="wifi_hotspot_client_manager_title">已連線的裝置</string>
     <string name="wifi_hotspot_client_manager_summary">列出並管理已連線到無線基地台的裝置</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">列出已連線到無線基地台的裝置</string>
@@ -31,8 +33,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">取消封鎖裝置</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">此裝置「<xliff:g id="device_name">%1$s</xliff:g>」將能夠連線到此無線基地台</string>
     <string name="wifi_hotspot_client_manager_footer_text">目前沒有可顯示的裝置。有已連線或已封鎖的裝置時將在此顯示。</string>
-    <string name="wifi_hotspot_hidden_ssid_title">隱藏網路</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">您的無線基地台將不會公開顯示。</string>
     <string name="top_level_connectivity">連接性</string>
     <string name="top_level_personalize">個性化</string>
     <string name="top_level_system">系統</string>

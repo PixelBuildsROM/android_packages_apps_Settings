@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_hotspot_hidden_ssid_title">Κρυφό δίκτυο</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Το όνομα του hotspot του κινητού σας δεν θα εμφανίζεται στη λίστα των διαθέσιμων δικτύων WLAN.</string>
     <string name="wifi_hotspot_client_manager_title">Συνδεδεμένες συσκευές</string>
     <string name="wifi_hotspot_client_manager_summary">Λίστα και διαχείριση συνδεδεμένων συσκευών στο hotspot</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Λίστα συσκευών συνδεδεμένων στο hotspot</string>
@@ -11,6 +13,4 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Ξεμπλοκάρισμα συσκευής</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Η συσκευή \"<xliff:g id="device_name">%1$s</xliff:g>\" θα μπορεί να συνδεθεί σε αυτό το hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Δεν υπάρχουν διαθέσιμοι πελάτες αυτήν τη στιγμή. Οι συνδεδεμένες και αποκλεισμένες συσκευές θα εμφανίζονται εδώ όταν είναι διαθέσιμες.</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Κρυφό δίκτυο</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Το όνομα του hotspot του κινητού σας δεν θα εμφανίζεται στη λίστα των διαθέσιμων δικτύων WLAN.</string>
 </resources>

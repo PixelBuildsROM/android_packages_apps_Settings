@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_hotspot_hidden_ssid_title">Piilotettu verkko</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Mobiiliyhteyspisteesi nimi ei näy saatavilla olevien Wi-Fi-verkkojen listalla.</string>
     <string name="wifi_hotspot_client_manager_title">Yhdistetyt laitteet</string>
     <string name="wifi_hotspot_client_manager_summary">Listaa ja hallitse yhteyspisteeseen yhdistettyjä laitteita</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Listaa yhteyspisteeseen yhdistetyt laitteet</string>
@@ -11,6 +13,4 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Kumoa laitteen esto</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Laite \"<xliff:g id="device_name">%1$s</xliff:g>\" voi muodostaa yhteyden tähän hotspottiin</string>
     <string name="wifi_hotspot_client_manager_footer_text">Yhteyksiä ei ole tällä hetkellä saatavilla. Yhdistetyt ja estetyt laitteet näkyvät täällä kun ne ovat saatavilla.</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Piilotettu verkko</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Mobiiliyhteyspisteesi nimi ei näy saatavilla olevien Wi-Fi-verkkojen listalla.</string>
 </resources>

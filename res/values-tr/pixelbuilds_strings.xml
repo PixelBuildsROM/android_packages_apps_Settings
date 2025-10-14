@@ -20,6 +20,9 @@
     <string name="idle_manager_summary">Cihaz bekleme modundayken önemli olmayan tüm arka plan işlemlerini durdur</string>
     <string name="system_black_theme_title">Siyah temayı kullan</string>
     <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
+    <string name="ambient_display_wake_screen_summary">Saati, bildirimleri ve diğer bilgileri kontrol etmek için telefonunuzu bulunduğu yerden alın</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Hotspot isminiz kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
     <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
     <string name="wifi_hotspot_client_manager_summary">Hotspot\'a bağlı cihazları listeleyin ve yönetin</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Hotspot\'a bağlı cihazları listeleyin</string>
@@ -31,6 +34,4 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz engelini kaldır</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot\'a bağlanabilecek</string>
     <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Hotspot isminiz kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
 </resources>

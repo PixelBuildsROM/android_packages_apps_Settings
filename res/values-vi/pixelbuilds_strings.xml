@@ -36,6 +36,8 @@
     <string name="charging_control_target_time_summary">Pin sẽ được sạc đầy vào %s</string>
     <string name="charging_control_limit_title">Giới hạn</string>
     <string name="reset">Cài lại</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Ẩn mạng</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Tên điểm phát sóng thiết bị này sẽ không xuất hiện trong danh sách các mạng WLAN khả dụng.</string>
     <string name="wifi_hotspot_client_manager_title">Các thiết bị đã kết nối</string>
     <string name="wifi_hotspot_client_manager_summary">Liệt kê và quản lý các thiết bị được kết nối với điểm phát sóng</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Liệt kê các thiết bị được kết nối với điểm phát sóng</string>
@@ -47,8 +49,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Bỏ chặn thiết bị</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Thiết bị \"<xliff:g id="device_name">%1$s</xliff:g>\" có thể kết nối với điểm phát sóng này</string>
     <string name="wifi_hotspot_client_manager_footer_text">Không có thiết bị truy cập hiện có sẵn. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây.</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Ẩn mạng</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Tên điểm phát sóng thiết bị này sẽ không xuất hiện trong danh sách các mạng WLAN khả dụng.</string>
     <string name="top_level_connectivity">Kết nối</string>
     <string name="top_level_personalize">Cá nhân hóa</string>
     <string name="top_level_system">Hệ thống</string>

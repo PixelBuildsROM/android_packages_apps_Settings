@@ -20,6 +20,56 @@
     <string name="idle_manager_summary">Stoppe alle nicht notwendigen Hintergrundprozesse, wenn das Gerät inaktiv ist</string>
     <string name="system_black_theme_title">Schwarzes Design verwenden</string>
     <string name="system_black_theme_summary">Schwarze Hintergrundfarben erzwingen</string>
+    <string name="ambient_display_wake_screen_footer">Pixel verwendet Motion Sense um Bewegungen in der Nähe zu erkennen. Es verwendet keine Kamera, Mikrofon oder Position.</string>
+    <string name="ambient_display_wake_screen_summary">Wenn das Smartphone in die Hand genommen wird, werden die Uhrzeit, Benachrichtigungen und andere Informationen angezeigt</string>
+    <string name="ambient_display_wake_screen_summary_on">Ein</string>
+    <string name="ambient_display_wake_screen_title">Telefonprüfung erreichen</string>
+    <string name="aware_category_display">Inaktivitätsdisplay</string>
+    <string name="aware_category_gesture">Quick Gestures</string>
+    <string name="aware_category_security">Gerätesicherheit</string>
+    <string name="aware_disabled_preference_action">Motion Sense-Einstellungen</string>
+    <string name="aware_disabled_preference_dialog_content">Um \"Schnelle Gesten\" zu verwenden, aktivieren Sie Motion Sense.</string>
+    <string name="aware_disabled_preference_dialog_title">Diese Funktion ist deaktiviert</string>
+    <string name="aware_display_settings_title">Leerlauf Sperrbildschirm</string>
+    <string name="aware_lock_title">Auto-Sperre, wenn niemand um sich herum ist</string>
+    <string name="aware_settings_description">Pixel verwendet einen Sensor, um Entfernungen und Bewegungen rund um das Telefon zu erkennen</string>
+    <string name="aware_settings_disabled_info_dialog_content">Motion Sense Funktionen wie \"Schnelle Gesten\", Display in der Nähe anzeigen und Telefon zu überprüfen werden in diesem Land unterstützt</string>
+    <string name="aware_settings_disabled_info_dialog_title">Motion Sense ist aus</string>
+    <string name="aware_settings_enabled_info_dialog_content">Motion Sense Funktionen wie Quick Gestures, Display in der Nähe anzeigen und Telefon zu überprüfen werden in diesem Land unterstützt</string>
+    <string name="aware_settings_enabled_info_dialog_title">Motion Sense ist aktiv</string>
+    <string name="aware_settings_suggestion_summary">Schnelle Gesten ausprobieren, um Titel und mehr zu überspringen</string>
+    <string name="aware_settings_suggestion_title">Bewegungssinn verwenden</string>
+    <string name="aware_settings_summary">Ein/Erkennt Bewegungen um das Telefon</string>
+    <string name="aware_settings_title">Bewegungssinn</string>
+    <string name="aware_wake_display_summary">Uhrzeit, Benachrichtigungssymbole und andere Informationen beim Laden anzeigen</string>
+    <string name="aware_wake_display_summary_aod_off">Nicht verfügbar, da Always-On ausgeschaltet ist</string>
+    <string name="aware_wake_display_title">An wann Sie in der Nähe sind</string>
+    <string name="dialog_aware_settings_message">Wenn Sie Motion Sense ausschalten, können Sie keine \"Schnellen Gesten\" verwenden, und nicht den Bildschirm anzeigen wenn Sie in der Nähe sind</string>
+    <string name="dialog_aware_settings_title">Motion Sense ausschalten?</string>
+    <string name="gesture_aware_disabled_info_dialog_content">Schnellgesten und andere Motion Sense Funktionen werden in diesem Land nicht unterstützt</string>
+    <string name="gesture_aware_footer">Schnellgesten verwenden Motion Sense. Erfahre mehr über Schnellgesten in Pixel Tipps.</string>
+    <string name="gesture_aware_off_dialog_content">Um \"Schnelle Gesten\" zu verwenden, aktivieren Sie Motion Sense.</string>
+    <string name="gesture_aware_off_dialog_title">\"Schelle Gesten\" sind ausgeschaltet</string>
+    <string name="gesture_silence_footer"><annotation link="link">Einstellungen</annotation></string>
+    <string name="gesture_silence_off_summary">An/ Stummschalten von Alarmen und stillen Anrufen</string>
+    <string name="gesture_silence_on_summary">An/ Stummschalten von Alarmen und stillen Anrufen</string>
+    <string name="gesture_silence_summary">Stummschalten von Alarmen und stillen Anrufen</string>
+    <string name="gesture_silence_title">Unterbrechungen auf still schalten</string>
+    <string name="gesture_skip_footer"><annotation link="link">Einstellungen</annotation></string>
+    <string name="gesture_skip_direction_ltr">Für den nächsten Song von links nach rechts wischen</string>
+    <string name="gesture_skip_direction_rtl">Für den nächsten Song von rechts nach links wischen</string>
+    <string name="gesture_skip_direction_title">Wischrichtung</string>
+    <string name="gesture_skip_off_summary">Zum nächsten oder vorherigen Titel springen</string>
+    <string name="gesture_skip_on_summary">Zum nächsten oder vorherigen Titel springen</string>
+    <string name="gesture_skip_summary">Zum nächsten oder vorherigen Titel springen</string>
+    <string name="gesture_skip_title">Titel überspringen</string>
+    <string name="gesture_tap_footer"><annotation link="link">Einstellungen</annotation></string>
+    <string name="gesture_tap_on_summary">An / Pause oder fortsetzen der Musikwiedergabe</string>
+    <string name="gesture_tap_summary">Pausieren oder fortsetzen von Musik durch Tippen über dem Telefon</string>
+    <string name="gesture_tap_title">Pausierte Musik</string>
+    <string name="keywords_arm_reach">Annäherung, Sicherheit, Sperrung, Sensor, Arm, Reichweite, Bewegung, Entsperren, Erkennen, in der Nähe</string>
+    <string name="keywords_aware_gesture">Schnelle Gesten, Überspringen, Songs, Lautlosigkeit, Anruf, Alarm, Timer</string>
+    <string name="keywords_aware_lock">Annäherung, Sicherheit, Sperrung, Sensor, Arm, Reichweite, Bewegung, Entsperren, Erkennen, in der Nähe</string>
     <string name="charging_control_title">Ladesteuerung</string>
     <string name="charging_control_summary">Passen Sie den Ladeplan und die Grenzwerte für den Akku an</string>
     <string name="charging_control_enable_title">Ladesteuerung aktivieren</string>
@@ -36,6 +86,8 @@
     <string name="charging_control_target_time_summary">Der Akku wird um %s vollständig aufgeladen</string>
     <string name="charging_control_limit_title">Grenze</string>
     <string name="reset">Zurücksetzen</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name Ihres mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
     <string name="wifi_hotspot_client_manager_title">Verbundene Geräte</string>
     <string name="wifi_hotspot_client_manager_summary">Mit dem Hotspot verbundene Geräte anzeigen und verwalten</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Mit dem Hotspot verbundene Geräte auflisten</string>
@@ -47,8 +99,6 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Gerät nicht mehr blockieren</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät „<xliff:g id="device_name">%1$s</xliff:g>“ wird sich mit diesem Hotspot verbinden können</string>
     <string name="wifi_hotspot_client_manager_footer_text">Derzeit keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, sobald sie verfügbar sind.</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Der Name Ihres mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
     <string name="top_level_connectivity">Konnektivität</string>
     <string name="top_level_personalize">Personifizieren</string>
     <string name="top_level_system">System</string>
