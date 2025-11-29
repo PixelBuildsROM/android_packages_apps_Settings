@@ -91,9 +91,9 @@
 
         <com.android.settings.pb.preference.SystemSettingSwitchPreference
             android:key="lockscreen_weather_enabled"
-            android:defaultValue="false"
             android:title="@string/lockscreen_weather_title"
-            android:summary="@string/lockscreen_weather_summary" />
+            android:summary="@string/lockscreen_weather_summary"
+            settings:controller="com.android.settings.display.OmniJawsWeatherPreferenceController" />
 
         <com.android.settings.pb.preference.SystemSettingSwitchPreference
             android:key="lockscreen_weather_location"
