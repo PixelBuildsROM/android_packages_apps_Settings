@@ -37,14 +37,6 @@
         android:fragment="com.android.settings.language.LanguageSettings"
         settings:controller="com.android.settings.language.LanguagePreferenceController"/>
 
-    <com.google.android.settings.aware.AwareSettingsDialogPreference 
-	android:icon="@drawable/ic_aware" 
-        android:key="aware_settings"
-	android:order="-230" 
-	android:title="@string/aware_settings_title" 
-        settings:controller="com.google.android.settings.aware.AwareSettingsPreferenceController"
-        settings:searchable="false" />
-
     <Preference
         android:key="Keyboard_settings"
         android:title="@string/keyboard_settings"

@@ -104,7 +104,6 @@
             
     </PreferenceCategory>
 
-
     <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
         android:title="@string/ambient_display_category_triggers"
@@ -118,28 +117,6 @@
             settings:keywords="@string/keywords_always_show_time_info"
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
-
-     <PreferenceCategory 
-	    android:title="@string/aware_category_gesture"
-	    android:key="aware_gestures" 
-	    settings:controller="com.google.android.settings.aware.AwareGesturesCategoryPreferenceController"
-	    settings:keywords="TYPE_DYNAMIC_REFERENCE">
-
-        <com.android.settingslib.RestrictedPreference 
-            android:title="@string/aware_display_settings_title" 
-            android:key="aware_presence" 
-            android:fragment="com.google.android.settings.aware.AwareDisplaySettings" 
-            settings:controller="com.google.android.settings.aware.AwareDisplayPreferenceController" 
-            settings:keywords="@string/keywords_aware_settings" 
-            settings:userRestriction="no_ambient_display" />
-         <com.google.android.settings.aware.WakeScreenGestureDialogPreference 
-            android:title="@string/ambient_display_wake_screen_title" 
-            android:key="ambient_display_wake_screen" 
-            settings:controller="com.google.android.settings.aware.WakeScreenDialogGesturePreferenceController" 
-            settings:keywords="TYPE_DYNAMIC_REFERENCE" 
-	    settings:searchable="false" />
-
-     </PreferenceCategory>
 
         <Preference
             android:key="ambient_display_tap"
