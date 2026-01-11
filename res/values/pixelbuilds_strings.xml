@@ -103,6 +103,4 @@
     <!-- Long press navbar to search -->
     <string name="navbar_long_press_gesture_title">Long press to search</string>
     <string name="navbar_long_press_gesture_summary">Long press the gesture bar to invoke Cirlce to Search</string>
-=======
->>>>>>> parent of ea21271682 (Implement Motion sense)
 </resources>
