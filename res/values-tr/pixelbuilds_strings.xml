@@ -20,7 +20,6 @@
     <string name="idle_manager_summary">Cihaz bekleme modundayken önemli olmayan tüm arka plan işlemlerini durdur</string>
     <string name="system_black_theme_title">Siyah temayı kullan</string>
     <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
-    <string name="ambient_display_wake_screen_summary">Saati, bildirimleri ve diğer bilgileri kontrol etmek için telefonunuzu bulunduğu yerden alın</string>
     <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Hotspot isminiz kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
     <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
