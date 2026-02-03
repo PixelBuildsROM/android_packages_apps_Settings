@@ -4189,15 +4189,9 @@
     <!-- no translation found for graphics_driver_app_preference_values:1 (485288770206606512) -->
     <!-- no translation found for graphics_driver_app_preference_values:2 (5391218026495225599) -->
     <!-- no translation found for graphics_driver_app_preference_values:3 (2586045835780389650) -->
-    <string name="enable_angle_as_system_driver" msgid="4648827560023949786">"Eksperimenteel: aktiveer ANGLE"</string>
-    <string name="enable_angle_as_system_driver_summary" msgid="2170215556348477481">"Waarskuwing: aktiveer ANGLE as verstek-OpenGL ES-drywer. Hierdie kenmerk is eksperimenteel en sal dalk nie met sommige kamera- en videoapps versoenbaar wees nie."</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver" msgid="2619263039763150810">"’n Herselflaai word vereis om die stelsel-OpenGL ES-drywer te verander"</string>
-    <string name="platform_compat_dashboard_title" msgid="1323980546791790236">"Veranderinge aan programversoenbaarheid"</string>
-    <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"Wissel veranderinge aan programversoenbaarheid"</string>
-    <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"Veranderinge aan by verstek geaktiveer"</string>
-    <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"Veranderinge aan by verstek gedeaktiveer"</string>
-    <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"Veranderinge aan programversoenbaarheid kan net vir ontfoutbare programme gewysig word. Installeer \'n ontfoutbare program en probeer weer."</string>
-    <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"Hang van \'n ander instelling af"</string>
+    <string name="enable_angle_as_system_driver" msgid="3985105681812713612">"Aktiveer ANGLE"</string>
+    <string name="enable_angle_as_system_driver_summary" msgid="1552818142467085308">"Waarskuwing: aktiveer ANGLE as verstek-OpenGL ES-drywer. Hierdie kenmerk is eksperimenteel en sal dalk nie met sommige kamera- en videoapps versoenbaar wees nie. Rugsteun jou toesteldata voordat jy die skakelaar aanskakel"</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver" msgid="14147627096976157">"’n Herselflaai word vereis om die stelsel-OpenGL ES-drywer te verander. Rugsteun asseblief jou toesteldata voordat jy herlaai. In geval die herlaai misluk het, het jy ’n fabriekterugstelling nodig om die toestel terug te stel"</string>
     <string name="my_device_info_account_preference_title" msgid="9197139254007133175">"Rekening"</string>
     <string name="my_device_info_device_name_preference_title" msgid="8053298498727237971">"Toestelnaam"</string>
     <string name="my_device_info_basic_info_category_title" msgid="381963187269356548">"Basiese inligting"</string>
