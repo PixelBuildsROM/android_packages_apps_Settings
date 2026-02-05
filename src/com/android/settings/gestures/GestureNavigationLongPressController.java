@@ -27,6 +27,7 @@ import com.android.settings.core.TogglePreferenceController;
 public class GestureNavigationLongPressController extends TogglePreferenceController {
 
     private static final String GSA_PACKAGE = "com.google.android.googlequicksearchbox";
+    private static final String CTS_PACKAGE = "com.akslabs.circletosearch";
 
     public GestureNavigationLongPressController(Context context, String key) {
         super(context, key);
@@ -51,7 +52,8 @@ public class GestureNavigationLongPressController extends TogglePreferenceContro
             return UNSUPPORTED_ON_DEVICE;
         }
         try {
-            if (pm.getApplicationInfo(GSA_PACKAGE, 0).enabled) {
+            if (pm.getApplicationInfo(GSA_PACKAGE, 0).enabled
+                    || pm.getApplicationInfo(CTS_PACKAGE, 0).enabled) {
                 return AVAILABLE;
             }
         } catch (PackageManager.NameNotFoundException e) {
