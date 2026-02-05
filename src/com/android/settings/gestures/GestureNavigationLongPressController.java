@@ -27,9 +27,25 @@ import com.android.settings.core.TogglePreferenceController;
 public class GestureNavigationLongPressController extends TogglePreferenceController {
 
     private static final String GSA_PACKAGE = "com.google.android.googlequicksearchbox";
+    private static final String CTS_PACKAGE = "com.akslabs.circletosearch";
 
     public GestureNavigationLongPressController(Context context, String key) {
         super(context, key);
+    }
+
+    private boolean isPackageAvailable(String packageName) {
+        PackageManager pm = mContext.getPackageManager();
+        if (pm == null) {
+            return false;
+        }
+        try {
+            if (pm.getApplicationInfo(packageName, 0).enabled) {
+                return true;
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
+        return false;
     }
 
     @Override
@@ -46,16 +62,8 @@ public class GestureNavigationLongPressController extends TogglePreferenceContro
 
     @Override
     public int getAvailabilityStatus() {
-        PackageManager pm = mContext.getPackageManager();
-        if (pm == null) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
-        try {
-            if (pm.getApplicationInfo(GSA_PACKAGE, 0).enabled) {
-                return AVAILABLE;
-            }
-        } catch (PackageManager.NameNotFoundException e) {
-            return UNSUPPORTED_ON_DEVICE;
+        if (isPackageAvailable(GSA_PACKAGE) || isPackageAvailable(CTS_PACKAGE)) {
+            return AVAILABLE;
         }
         return UNSUPPORTED_ON_DEVICE;
     }
