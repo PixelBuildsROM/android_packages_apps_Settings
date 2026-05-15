@@ -44,6 +44,7 @@ import android.hardware.fingerprint.FingerprintManager;
 import android.hardware.fingerprint.FingerprintSensorPropertiesInternal;
 import android.os.Bundle;
 import android.util.AndroidRuntimeException;
+import android.os.UserHandle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,12 +61,14 @@ import androidx.test.core.app.ApplicationProvider;
 
 import com.android.settings.R;
 import com.android.settings.biometrics.BiometricStatusPreferenceController;
+import com.android.settings.SettingsActivity;
 import com.android.settings.biometrics.BiometricsSplitScreenDialog;
 import com.android.settings.biometrics.face.FaceStatusPreferenceController;
 import com.android.settings.biometrics.fingerprint.FingerprintStatusPreferenceController;
 import com.android.settings.password.ChooseLockSettingsHelper;
 import com.android.settings.testutils.FakeFeatureFactory;
 import com.android.settings.testutils.shadow.ShadowFragment;
+import com.android.settings.testutils.shadow.ShadowPasswordUtils;
 import com.android.settings.testutils.shadow.ShadowSettingsPreferenceFragment;
 import com.android.settings.testutils.shadow.ShadowUtils;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -90,7 +93,8 @@ import java.util.List;
 import java.util.Map;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(shadows = {ShadowSettingsPreferenceFragment.class, ShadowUtils.class, ShadowFragment.class})
+@Config(shadows = {ShadowSettingsPreferenceFragment.class, ShadowUtils.class, ShadowFragment.class,
+        ShadowPasswordUtils.class})
 public class CombinedBiometricProfileSettingsTest {
 
     private TestCombinedBiometricProfileSettings mFragment;
@@ -119,9 +123,9 @@ public class CombinedBiometricProfileSettingsTest {
         ShadowUtils.setFingerprintManager(mFingerprintManager);
         ShadowUtils.setFaceManager(mFaceManager);
         FakeFeatureFactory.setupForTest();
-
-        mActivity = spy(Robolectric.buildActivity(FragmentActivity.class,
+        mActivity = spy(Robolectric.buildActivity(SettingsActivity.class,
                 new Intent().putExtra(ChooseLockSettingsHelper.EXTRA_KEY_GK_PW_HANDLE, 1L)).get());
+        ShadowPasswordUtils.setCallingAppPackageName(mActivity.getPackageName());
         mContext = spy(ApplicationProvider.getApplicationContext());
         mFragment = spy(new TestCombinedBiometricProfileSettings(mContext));
         doReturn(mActivity).when(mFragment).getActivity();
@@ -169,6 +173,7 @@ public class CombinedBiometricProfileSettingsTest {
     @After
     public void tearDown() {
         ShadowUtils.reset();
+        ShadowPasswordUtils.reset();
     }
 
     @Test
@@ -534,6 +539,36 @@ public class CombinedBiometricProfileSettingsTest {
         mFragment.onPreferenceTreeClick(preference);
 
         verify(mFragment, never()).launchChooseOrConfirmLock();
+    }
+
+    @Test
+    public void testInternalCaller_allowsSensitiveExtras() {
+        Intent intent = new Intent(mActivity.getIntent());
+        intent.putExtra(Intent.EXTRA_USER_ID, 10);
+        intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_GK_PW_HANDLE, 12345L);
+        mActivity.setIntent(intent);
+
+        mFragment.onAttach((Context) mActivity);
+        mFragment.onCreate(Bundle.EMPTY);
+
+        assertThat(mFragment.getUserId()).isEqualTo(10);
+        assertThat(mFragment.getGkPwHandle()).isEqualTo(12345L);
+    }
+
+    @Test
+    public void testExternalCaller_ignoresSensitiveExtras() {
+        Intent intent = new Intent(mActivity.getIntent());
+        intent.putExtra(Intent.EXTRA_USER_ID, 10);
+        intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_GK_PW_HANDLE, 12345L);
+        intent.putExtra(SettingsActivity.EXTRA_INITIAL_CALLING_PACKAGE, "com.poc.app");
+        mActivity.setIntent(intent);
+
+        mFragment.onAttach((Context) mActivity);
+        mFragment.onCreate(Bundle.EMPTY);
+
+        assertThat(mFragment.getUserId()).isEqualTo(UserHandle.myUserId());
+        assertThat(mFragment.getGkPwHandle()).isEqualTo(0L);
+        verify(mFragment).launchChooseOrConfirmLock();
     }
 
     /**
